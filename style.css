@@ -242,7 +242,6 @@ nav {
 }
 
 .main-nav{
-    background-color: rgb(134, 219, 255);
     display: flex;
     list-style-type: none;
     justify-content: center;
