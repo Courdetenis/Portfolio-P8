@@ -277,14 +277,14 @@ nav {
 }
 
 #main-toggle{
-    border: 1px solid #df36854d;
+    border: 1px solid #86dbff;
     float: right;
     padding: 20px;
     user-select: none;
 }
 
 .nav-icon{
-    background-color: #df36854d;
+    background-color: #86dbff;
     display: block;
     height: 3px;
     width: 10px;
@@ -293,7 +293,7 @@ nav {
 
 .nav-icon::before,
 .nav-icon::after{
-    background-color: #df36854d;
+    background-color: #86dbff;
     content: "";
     display: block;
     height: 100%;
@@ -557,7 +557,7 @@ nav {
     .toggle{
         display: block;
         background-color: #ffffff;
-        border: 1px solid #fd81bb4d;
+        border: 1px solid #86dbff;
     }
     
     .toggle:hover{
@@ -608,15 +608,6 @@ nav {
     body {
         background-color: rgba(45, 45, 45, 1);
         color: white;
-    }
-
-    .baby-pink {
-        background-color: rgb(243, 162, 200);
-    }
-
-    .baby-pink-light {
-        background-color: rgba(45, 45, 45, 1);
-        border: 2px solid rgb(243, 162, 200);
     }
 
     .main-nav {
@@ -674,12 +665,5 @@ nav {
 
     footer{
         color: white;
-    }
-
-    @media screen and (max-width: 929px) {
-        .baby-pink-light {
-            margin-left: 10px;
-            margin-right: 10px;
-        }
     }
 }
