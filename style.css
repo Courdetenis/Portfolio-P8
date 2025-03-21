@@ -247,6 +247,7 @@ nav {
     justify-content: center;
     padding: 20px;
     margin: 0px;
+    background-color: #ffffff;
 }
 
 .main-nav li {
@@ -552,6 +553,7 @@ nav {
 @media screen and (max-width: 510px){
     .main-nav{
         display: none;
+        background-color: #ffffff;
     }
 
     .toggle{
@@ -566,6 +568,7 @@ nav {
     
     #drop:checked+.main-nav{
         display: block;
+        
     }
 
     nav{
